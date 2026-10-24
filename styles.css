@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #d9dfea;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c4cbda;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+button,
+select {
+  padding: 8px 10px;
+  border: 1px solid #b7bfd3;
+  border-radius: 6px;
+  background: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.approve {
+  border-color: #128a2f;
+  color: #128a2f;
+}
+
+button.reject {
+  border-color: #a11d1d;
+  color: #a11d1d;
+}
+
+.review-item {
+  border: 1px solid #d9dfea;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.kanban-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.column {
+  border: 1px solid #d9dfea;
+  border-radius: 6px;
+  padding: 10px;
+  background: #fafbff;
+}
+
+.task-card {
+  border: 1px solid #cfd7ea;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 8px;
+  background: #fff;
+}
+
+.muted {
+  color: #667;
+  font-size: 0.9rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.metric {
+  border: 1px solid #d9dfea;
+  border-radius: 6px;
+  padding: 10px;
+  background: #fafbff;
+}
+
+.metric strong {
+  display: block;
+  font-size: 1.4rem;
+}
