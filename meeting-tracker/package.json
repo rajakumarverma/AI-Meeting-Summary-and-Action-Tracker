@@ -1,0 +1,14 @@
+{
+  "name": "ai-meeting-action-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Meeting Summary & Action Tracker (Kanban upgrade)",
+  "scripts": {
+    "test:core": "node --test tests/core.test.js",
+    "test:ui": "node --test tests/ui.test.js",
+    "test:js": "node --test tests/core.test.js tests/ui.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}

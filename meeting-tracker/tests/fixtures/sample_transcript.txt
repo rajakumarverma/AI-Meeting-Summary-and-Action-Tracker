@@ -1,0 +1,15 @@
+Priya: Good morning everyone. Today's agenda covers the Northwind Mobile App v2 launch readiness, the onboarding redesign, and the marketing plan. Let's start with the launch date.
+Marcus: Engineering is mostly on track. The login crash on Android 12 is the main issue and it is blocking the beta release. It affects about one in twenty sign-ins on older devices.
+Priya: Understood. Can you fix it quickly?
+Marcus: I'll fix the login crash by Oct 21. That is urgent for the beta.
+Sam: Once the fix is in, QA needs the full regression suite. I'll run the regression tests sometime next week.
+Priya: Okay. On the launch date, we decided to keep November 16 for the public release.
+Priya: We agreed to ship the beta to internal testers first before opening the TestFlight group to customers.
+Elena: Moving to onboarding. Users are dropping off at the permissions screen. I think we could try a shorter tutorial, maybe three steps instead of five, but I'm not sure it helps yet.
+Priya: Let's not commit to that yet. Elena, can you share the final onboarding mockups by Friday?
+Elena: Sure, I'll send them over by Friday.
+Jordan: For marketing, the press kit is waiting on final screenshots, and we haven't decided who will brief the support team on the new onboarding flow.
+Priya: Good point. Someone needs to confirm the payment provider contract renewal date before the launch.
+Jordan: I'll draft the launch announcement and share it for review by Oct 27.
+Priya: Great. We decided to use the existing Northwind brand colors for the announcement rather than commissioning a new palette.
+Priya: Anything else? Okay, let's wrap up. Thanks, everyone.

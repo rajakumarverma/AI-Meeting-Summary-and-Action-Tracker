@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meeting Action Tracker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/dashboard" aria-label="Meeting Action Tracker home">
+      <span class="brand-mark" aria-hidden="true">✓</span>
+      <span class="brand-name">Meeting Action Tracker</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/dashboard" data-nav="dashboard">Dashboard</a>
+      <a href="#/meetings" data-nav="meetings">Meetings</a>
+      <a href="#/kanban" data-nav="kanban">Kanban<span class="nav-badge" id="nav-overdue" hidden></span></a>
+    </nav>
+    <div class="topbar-right">
+      <span class="mode-badge" id="mode-badge" role="status" aria-live="polite">Checking server…</span>
+      <button class="btn btn-ghost" id="btn-data" type="button">Data &amp; backup</button>
+    </div>
+  </div>
+</header>
+
+<div class="banner" id="banner" role="alert" hidden></div>
+
+<main id="main" tabindex="-1"></main>
+
+<footer class="footer">
+  Your tasks and meetings are stored only in this browser (localStorage). They are not shared with teammates or synced
+  across devices — use <button class="link-btn" id="footer-backup" type="button">Data &amp; backup</button> to export a copy.
+</footer>
+
+<div id="modal-root"></div>
+<div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+<script src="core.js"></script>
+<script src="demo.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
