@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Meeting Summary & Action Tracker</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>AI Meeting Summary & Action Tracker</h1>
+
+      <section class="card">
+        <h2>1) Transcript Input</h2>
+        <textarea id="transcriptInput" rows="10" placeholder="Paste meeting transcript here..."></textarea>
+        <button id="analyzeBtn">Analyze Transcript</button>
+      </section>
+
+      <section class="card">
+        <h2>2) AI Extraction</h2>
+        <h3>Summary</h3>
+        <p id="summaryOutput">No summary yet.</p>
+
+        <h3>Decisions</h3>
+        <ul id="decisionsOutput"></ul>
+      </section>
+
+      <section class="card">
+        <h2>3) Human Review & Approval</h2>
+        <p>Approve extracted action items before they become trackable tasks.</p>
+        <div id="reviewList"></div>
+      </section>
+
+      <section class="card">
+        <h2>4) Kanban Board</h2>
+        <div class="kanban-grid" id="kanbanBoard"></div>
+      </section>
+
+      <section class="card">
+        <h2>5) Progress Dashboard</h2>
+        <div class="dashboard-grid" id="dashboard"></div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
